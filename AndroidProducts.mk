@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_umi.mk
+    $(LOCAL_DIR)/twrp_monet.mk
