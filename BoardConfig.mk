@@ -28,8 +28,8 @@ TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
 
 # Recovery
-TW_Y_OFFSET := 90
-TW_H_OFFSET := -90
+TW_Y_OFFSET := 60
+TW_H_OFFSET := -60
 
 #
 # For local builds only
