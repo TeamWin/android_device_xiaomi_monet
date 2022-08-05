@@ -30,6 +30,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/$(BOARD_KERNEL_IMAGE_NAME)
 
 # Recovery
+TARGET_RECOVERY_DEVICE_DIRS += $(DEVICE_PATH)
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone17/temp" # cpu-0-0-usr
 TW_Y_OFFSET := 60
 TW_H_OFFSET := -60
